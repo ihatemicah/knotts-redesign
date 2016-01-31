@@ -4,6 +4,8 @@
 .navbar {
   text-align: center;
   border: solid black;
+  font-family: lato;
+
 
 }
   .navbar li {
@@ -22,8 +24,11 @@
   width: 150px;
   margin: 10px auto;
   border: solid black;
+  font-family: source sans pro;
+  text-align: center;
 }
 .footer{
   text-align: center;
   border: solid black;
+  font-family: source sans pro;
 }
