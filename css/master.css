@@ -1,0 +1,29 @@
+/* Main CSS File */
+
+
+.navbar {
+  text-align: center;
+  border: solid black;
+
+}
+  .navbar li {
+    display: inline;
+    padding: 20px;
+  }
+  .navbar a {
+    display: inline-block;
+  }
+
+.slideshow {
+  text-align: center;
+  border: solid black;
+}
+.table-info {
+  width: 150px;
+  margin: 10px auto;
+  border: solid black;
+}
+.footer{
+  text-align: center;
+  border: solid black;
+}
