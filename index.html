@@ -1,73 +1,142 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/master.css">
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700|Lato:400,300' rel='stylesheet' type='text/css'>
-    <title> Knotts Berry Farm Redesign. </title>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <div class="navbar">
-      <ul>
-        <li><a href="#"> Home page </a></li>
-        <li><a href="attractions.html"> Attractions </a> </li>
-        <li><a href="#"> Food </a></li>
-        <li><a href="#"> Pricing </a></li>
-      </ul>
-    </div>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!-- Image Slideshow-->
-    <div class="slideshow">
-      <img src="http://placehold.it/350x150" alt="Image Placeholder"/>
+        <title>
+            Knotts Redesign
+        </title><!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <!-- My Personal CSS -->
+        <link href="css/master.css" rel="stylesheet">
+        <!-- Animation CSS -->
+        <link href="css/animation.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+        <!-- Video Player Header-->
 
-    </div>
-    <!-- Table Below-->
-    <div class="table-info">
-      <table>
-        <tbody>
+        <div class="homepage-hero-module">
+            <div class="video-container">
+                <div class="filter">
+                </div>
+                <video autoplay="" class="fillWidth" loop=""><source src=
+                "mp4/hoola.mp4" type="video/mp4">Your browser does not support
+                the video tag. I suggest you upgrade your browser. <source src=
+                "mp4/hoola.webm" type="video/webm">Your browser does not
+                support the video tag. I suggest you upgrade your
+                browser.</video> <!-- Navbar -->
 
+                <div class="navbar">
+                    <ul>
+                        <li>
+                            <a href="#">Home page</a>
+                        </li>
 
-          <tr>
-            <td><img src="http://placehold.it/100x100" alt="placerholder" /></td>
-          </tr>
-          <tr>
-            <td>
-              test
-            </td>
-          </tr>
+                        <li>
+                            <a href="attractions.html">Attractions</a>
+                        </li>
 
+                        <li>
+                            <a href="#">Food</a>
+                        </li>
 
-          <tr>
-            <td>
-              <img src="http://placehold.it/100x100" alt="placerholder" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              test
-            </td>
-          </tr>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Content inside of video -->
 
+                <div class="center-content">
+                    <img alt="Knotts logo " src="img/knotts.png">
+                </div>
 
-          <tr>
-            <td><img src="http://placehold.it/100x100" alt="placeholder" /></td>
-          </tr>
-          <tr>
-            <td>
-              test
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      </div>
-      <!-- Put Footer here-->
-      <div class="footer">
-        <p>
-          footer here
-        </p>
+                <div class="poster hidden">
+                    <img alt="Image replacement for video player" src=
+                    "hoola.jpg">
+                </div>
+                <div class="container">
+                  <button type="button" name="large button" class="btn btn-lg "> Learn more </button>
 
-      </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- Table Below-->
 
-  </body>
+        <div class="table-info">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img alt="placerholder" src=
+                            "http://placehold.it/100x100">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            test
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img alt="placerholder" src=
+                            "http://placehold.it/100x100">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            test
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img alt="placeholder" src=
+                            "http://placehold.it/100x100">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            test
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- Put Footer here-->
+
+        <div class="footer">
+            <p>
+                footer here
+            </p>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src=
+        "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+        </script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+        <script src="js/bootstrap.js">
+        </script> <!-- My Javascript below -->
+
+        <script src="js/master.js">
+        </script> <!-- Jquery Added -->
+
+        <script src="js.jquery-1.12.0min.js">
+        </script>
+    </body>
 </html>
