@@ -1,34 +1,83 @@
 /* Main CSS File */
 
-
 .navbar {
-  text-align: center;
-  border: solid black;
-  font-family: lato;
-
+  text-align: right;
+  color: white;
+  font-size: 15px;
+  height: 76px;
+  position: relative;
 
 }
-  .navbar li {
-    display: inline;
-    padding: 20px;
-  }
-  .navbar a {
-    display: inline-block;
-  }
+    .navbar li {
+      display: inline;
+      padding: 30px;
+    }
+    .navbar a {
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+    }
+    .navbar ul {
+      padding-top: 20px;
+      padding-right: 80px;
+    }
 
-.slideshow {
-  text-align: center;
-  border: solid black;
-}
 .table-info {
   width: 150px;
   margin: 10px auto;
   border: solid black;
-  font-family: source sans pro;
   text-align: center;
 }
 .footer{
   text-align: center;
   border: solid black;
-  font-family: source sans pro;
+}
+.center-content {
+  padding-top: 5%;
+  text-align: center;
+  position: relative;
+}
+
+/* Video Header CSS Below */
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
 }
