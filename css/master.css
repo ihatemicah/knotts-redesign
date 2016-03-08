@@ -109,3 +109,8 @@ height: auto;
   font-size:20px;
   padding-bottom:200px;
 }
+  @media (min-width: 414px){
+    .container-text{
+      font-size: 5px;
+    }
+  }
