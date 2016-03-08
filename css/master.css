@@ -17,6 +17,7 @@ height: auto;
   font-size: 15px;
   height: 76px;
   position: relative;
+  font-family: 'Open Sans',sans-serif;
 
 }
     .navbar li {
@@ -98,5 +99,13 @@ height: auto;
 .heading {
   color:#6A1B9A;
   text-align: center;
+  font-size: 70px;
+  font-family: 'Nuntio', sans-serif;
+  font-weight: bold;
 
+}
+.container-text {
+  font-family:'Open Sans', sans-serif;
+  font-size:30px;
+  padding-bottom:200px;
 }

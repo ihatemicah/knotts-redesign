@@ -3011,6 +3011,7 @@ select[multiple].input-lg {
   margin-bottom: 0;
   font-size: 14px;
   font-weight: normal;
+  font-family:'Open Sans',sans-serif;
   line-height: 1.42857143;
   text-align: center;
   white-space: nowrap;
