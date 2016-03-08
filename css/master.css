@@ -111,6 +111,6 @@ height: auto;
 }
   @media (min-width: 414px; max-width: 600px;){
     .container-text{
-      font-size: 5px;
+      font-size: 10px;
     }
   }
