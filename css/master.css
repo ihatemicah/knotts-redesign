@@ -92,3 +92,12 @@ height: auto;
 .video-container video.fillWidth {
     width: 100%;
 }
+
+/* Header Tags */
+
+.heading {
+  color:#702877;
+  text-align: center;
+  
+
+}
