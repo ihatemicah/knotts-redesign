@@ -51,7 +51,9 @@
 
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Nunito:400,700|Open+Sans' rel='stylesheet' type='text/css'>
-
+    <!-- Waves addition -->
+    <link href="css/waves.min.css" rel="stylesheet">
+    <script src="js/waves.min.js"></script>
 
   </head>
 
@@ -101,6 +103,10 @@
               <button type="button" name="large button" class="btn btn-lg">
                 Learn more
               </button>
+                <script type="text/javascript">
+                  Waves.attach('.btn-lg',['waves-button','waves-float']);
+                  Waves.init();
+                </script>
 
             </div>
           </div>
