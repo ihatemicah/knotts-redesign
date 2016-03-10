@@ -9,6 +9,9 @@ height: auto;
 }
 
 
+#colored-button .btn { color: #fff; }
+
+
 /* Main CSS File */
 
 .navbar {
