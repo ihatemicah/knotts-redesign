@@ -53,7 +53,7 @@
 
 
   <!-- Google's stuff -->
-  <link href='https://fonts.googleapis.com/css?family=Nunito:400,700|Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans' rel='stylesheet' type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <!-- Waves addition -->
   <link href="css/waves.min.css" rel="stylesheet">
@@ -131,30 +131,20 @@
     <!-- END VIDEO -->
     <!-- START 'Why Knotts'  "Add css animations 👍"-->
 
-    <div class="container-fluid">
+    <div class="section">
       <div class="row">
-        <div class="col-lg-12" style="padding-bottom: 50px;">
-          <h1 class="heading floating">
-                  Why Knotts?
-                </h1>
+        <div class="section">
+          <h1 class="heading floating" style="margin-bottom:0px;"> VISITING KNOTTS </h1>
+                <h3 style="text-align:center;font-style:italic;color:#808080"> America's first theme park </h3>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6  text-left">
-          <p class="container-text">
-            Here at knotts we offer a variety of activites to do
-            <br> for the whole family and more. No matter what
-            <br> the age may be from new borns to newly weds
-            <br>everyone has something to do. Offering a wide
-            <br> arrange of rides, shows, food, and much more
-            <br> for affordable prices.
-          </p>
-
+        <div class="col-md-4">
+          <div class="image-container pullUp">
+          <img src="img/knotts-map.png" alt="knotts map" class="img-reponsive" style="padding-left:20px;"/>
         </div>
-        <div class="col-lg-6   text-right">
-          <img src="img/snoopy.png" class="img-responsive" alt="snoopy" width="300px" height="300px" />
-
         </div>
+        <div class="col-md-8 text-right center-content" style="padding-top:200px;">
+          <div class="subtext" style="padding-left:200px;"> Find something to do </div>
+          <p> you know what it is loser </p>
       </div>
     </div>
 
@@ -163,7 +153,7 @@
     <div class="container-fluid" style="background-color:#F8F8F8">
       <div class="row">
         <div class="col-sm-12">
-          <h2 class="heading">Rides</h2>
+          <h2 class="heading">RIDES</h2>
 
           <!-- START CAROUSEL -->
           <div class="loud-link-click" data-sound="magic">
@@ -243,6 +233,22 @@
   <script src="js/owl.carousel.js"></script>
   <script src="js/loudlinks.js"></script>
 
+
+
+<!-- Animation on scrolls -->
+<script>
+	$(window).scroll(function() {
+		$('#animatedElement').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("slideUp");
+			}
+		});
+	});
+</script>
+<!-- End -->
 </body>
 
 </html>
