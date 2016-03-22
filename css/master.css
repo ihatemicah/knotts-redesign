@@ -131,5 +131,23 @@
     font-size:35px;
   }
 
+/*Modified Bootstrap Stuff*/
 
-/*Image tag changes */
+.text-muted {
+  font-family: 'Open Sans';
+}
+
+.service-heading {
+  font-family: 'Open Sans';
+}
+
+.section-subheading {
+  font-family: 'Open Sans';
+}
+
+
+
+  /*Font Awesome Stuff */
+  .fa-circle {
+    color:#6A1B9A;
+  }
